@@ -11,5 +11,16 @@
 
     <artifactId>my-security-browser</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.my.security</groupId>
+            <artifactId>my-security-core</artifactId>
+            <version>${my.security.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.session</groupId>
+            <artifactId>spring-session</artifactId>
+        </dependency>
+    </dependencies>
 
 </project>

@@ -13,11 +13,11 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="mysecurity" target="1.5" />
-      <module name="mysecurityapp" target="1.5" />
-      <module name="mysecuritybrowser" target="1.5" />
-      <module name="mysecuritycore" target="1.5" />
-      <module name="mysecuritydemo" target="1.5" />
+      <module name="mysecurity" target="1.8" />
+      <module name="mysecurityapp" target="1.8" />
+      <module name="mysecuritybrowser" target="1.8" />
+      <module name="mysecuritycore" target="1.8" />
+      <module name="mysecuritydemo" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
