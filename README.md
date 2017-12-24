@@ -1,4 +1,4 @@
 # My Spring Boot Security
 
-## TD;DR
+## TL;DR
 I am practicing **Spring Boot** with **Spring Security** module.
