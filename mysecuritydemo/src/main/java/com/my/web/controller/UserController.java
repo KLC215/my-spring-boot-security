@@ -59,4 +59,29 @@ public class UserController {
 		return user;
 	}
 
+	@PutMapping("/{id:\\d+}")
+	@JsonView(User.UserDetailJsonView.class)
+	public User update(@Valid @RequestBody User user, BindingResult errors) {
+		if (errors.hasErrors()) {
+			errors.getAllErrors()
+				  .forEach(error -> {
+//					  FieldError fieldError = (FieldError) error;
+//					  String message = fieldError.getField() + ": " + fieldError.getDefaultMessage();
+					  System.out.println(error.getDefaultMessage());
+				  });
+		}
+
+		System.out.println(user.getUsername());
+		System.out.println(user.getPassword());
+		System.out.println(user.getDob());
+
+		user.setId(1);
+		return user;
+	}
+
+	@DeleteMapping("/{id:\\d+}")
+	public void destroy(@PathVariable Integer id) {
+		System.out.println(id);
+	}
+
 }

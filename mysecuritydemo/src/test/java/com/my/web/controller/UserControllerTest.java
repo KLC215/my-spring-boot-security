@@ -13,6 +13,8 @@ import org.springframework.test.web.servlet.result.MockMvcResultMatchers;
 import org.springframework.test.web.servlet.setup.MockMvcBuilders;
 import org.springframework.web.context.WebApplicationContext;
 
+import java.time.LocalDateTime;
+import java.time.ZoneId;
 import java.util.Date;
 
 @RunWith(SpringRunner.class)
@@ -130,6 +132,52 @@ public class UserControllerTest {
 				.getContentAsString();
 
 		System.out.println(result);
+	}
+
+	@Test
+	public void it_can_update_a_user() throws Exception {
+		//Date date = new Date();
+		Date date = new Date(LocalDateTime.now().plusYears(1).atZone(ZoneId.systemDefault()).toInstant().toEpochMilli());
+		String content = "{\"id\":1,\"username\":\"tom\",\"password\":\"password\",\"dob\":" + date.getTime() + "}";
+
+		String result = mockMvc
+				.perform(
+						MockMvcRequestBuilders
+								.put("/users/1")
+								.contentType(MediaType.APPLICATION_JSON_UTF8)
+								.content(content)
+
+				)
+				.andExpect(
+						MockMvcResultMatchers
+								.status()
+								.isOk()
+				)
+				.andExpect(
+						MockMvcResultMatchers
+								.jsonPath("$.id")
+								.value(1)
+				)
+				.andReturn()
+				.getResponse()
+				.getContentAsString();
+
+		System.out.println(result);
+	}
+
+	@Test
+	public void it_can_delete_a_user() throws Exception {
+		mockMvc
+				.perform(
+						MockMvcRequestBuilders
+								.delete("/users/1")
+								.contentType(MediaType.APPLICATION_JSON_UTF8)
+				)
+				.andExpect(
+						MockMvcResultMatchers
+								.status()
+								.isOk()
+				);
 	}
 
 }
