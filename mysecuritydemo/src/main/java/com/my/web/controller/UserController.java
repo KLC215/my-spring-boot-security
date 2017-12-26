@@ -41,14 +41,14 @@ public class UserController {
 		System.out.println("UserController->show(): start");
 
 		// Handled by Interceptor because there is no setting in ControllerExceptionHandler
-		throw new RuntimeException();
+		//throw new RuntimeException();
 
 		// Handled by @ControllerAdvice because of the setting in ControllerExceptionHandler
 		//throw new UserNotExistException(id);
 
-//		User user = new User();
-//		user.setUsername("tom");
-//		return user;
+		User user = new User();
+		user.setUsername("tom");
+		return user;
 	}
 
 	@PostMapping()
