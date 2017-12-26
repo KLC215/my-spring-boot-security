@@ -17,6 +17,11 @@ public class WebConfig extends WebMvcConfigurerAdapter {
 	@Autowired
 	private TimeInterceptor timeInterceptor;
 
+	/*@Override
+	public void configureAsyncSupport(AsyncSupportConfigurer configurer) {
+
+	}*/
+
 	//@Bean
 	public FilterRegistrationBean timeFilter() {
 		FilterRegistrationBean filterRegistrationBean = new FilterRegistrationBean();
