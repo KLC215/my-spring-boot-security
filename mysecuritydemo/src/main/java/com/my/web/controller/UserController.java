@@ -3,7 +3,6 @@ package com.my.web.controller;
 import com.fasterxml.jackson.annotation.JsonView;
 import com.my.dto.User;
 import com.my.dto.UserQueryParameters;
-import com.my.exception.UserNotExistException;
 import org.apache.commons.lang.builder.ReflectionToStringBuilder;
 import org.apache.commons.lang.builder.ToStringStyle;
 import org.springframework.data.domain.Pageable;
@@ -39,10 +38,17 @@ public class UserController {
 	@GetMapping("/{id:\\d+}")
 	@JsonView(User.UserDetailJsonView.class)
 	public User show(@PathVariable Integer id) {
-		throw new UserNotExistException(id);
-		/*User user = new User();
-		user.setUsername("tom");
-		return user;*/
+		System.out.println("UserController->show(): start");
+
+		// Handled by Interceptor because there is no setting in ControllerExceptionHandler
+		throw new RuntimeException();
+
+		// Handled by @ControllerAdvice because of the setting in ControllerExceptionHandler
+		//throw new UserNotExistException(id);
+
+//		User user = new User();
+//		user.setUsername("tom");
+//		return user;
 	}
 
 	@PostMapping()
