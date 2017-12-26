@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5b06eaf-19fa-4ae7-aa2d-7c6c3860a0f4" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/mysecuritydemo/src/main/java/com/my/web/aspect/TimeAspect.java" afterPath="$PROJECT_DIR$/mysecuritydemo/src/main/java/com/my/web/aspect/TimeAspect.java" />
+      <change beforePath="$PROJECT_DIR$/mysecuritydemo/src/main/java/com/my/web/async/AsyncController.java" afterPath="$PROJECT_DIR$/mysecuritydemo/src/main/java/com/my/web/async/AsyncController.java" />
       <change beforePath="$PROJECT_DIR$/mysecuritydemo/src/main/java/com/my/web/config/WebConfig.java" afterPath="$PROJECT_DIR$/mysecuritydemo/src/main/java/com/my/web/config/WebConfig.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -26,18 +26,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="UserControllerTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mysecuritydemo/src/test/java/com/my/web/controller/UserControllerTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
-              <caret line="180" column="5" lean-forward="false" selection-start-line="180" selection-start-column="5" selection-end-line="180" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="FileController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mysecuritydemo/src/main/java/com/my/web/controller/FileController.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -78,11 +66,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AsyncController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AsyncController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mysecuritydemo/src/main/java/com/my/web/async/AsyncController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="27" column="10" lean-forward="true" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
+            <state relative-caret-position="-445">
+              <caret line="24" column="71" lean-forward="true" selection-start-line="24" selection-start-column="71" selection-end-line="24" selection-end-column="71" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -90,12 +78,44 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="1514284904551.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mysecuritydemo/src/test/java/com/my/web/controller/1514284904551.txt">
+      <file leaf-file-name="QueueListener.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mysecuritydemo/src/main/java/com/my/web/async/QueueListener.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="12" lean-forward="true" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
-              <folding />
+            <state relative-caret-position="628">
+              <caret line="42" column="19" lean-forward="false" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MockQueue.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mysecuritydemo/src/main/java/com/my/web/async/MockQueue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="464">
+              <caret line="30" column="23" lean-forward="false" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#343#344#0" expanded="true" />
+                <element signature="e#367#368#0" expanded="true" />
+                <element signature="e#792#793#0" expanded="true" />
+                <element signature="e#819#820#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DeferredResultHolder.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mysecuritydemo/src/main/java/com/my/web/async/DeferredResultHolder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="251">
+              <caret line="14" column="44" lean-forward="false" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#468#469#0" expanded="true" />
+                <element signature="e#491#492#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -112,21 +132,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WebConfig.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="WebConfig.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mysecuritydemo/src/main/java/com/my/web/config/WebConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="19" column="6" lean-forward="false" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mysecuritydemo/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="386">
-              <caret line="28" column="41" lean-forward="true" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
+            <state relative-caret-position="261">
+              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -201,8 +211,12 @@
         <option value="$PROJECT_DIR$/mysecuritydemo/src/main/java/com/my/web/controller/FileController.java" />
         <option value="$PROJECT_DIR$/mysecuritydemo/src/test/java/com/my/web/controller/FileControllerTest.java" />
         <option value="$PROJECT_DIR$/mysecuritydemo/src/main/java/com/my/web/aspect/TimeAspect.java" />
-        <option value="$PROJECT_DIR$/mysecuritydemo/src/main/java/com/my/web/config/WebConfig.java" />
+        <option value="$PROJECT_DIR$/mysecuritydemo/src/main/java/com/my/web/async/DefferredResultHolder.java" />
+        <option value="$PROJECT_DIR$/mysecuritydemo/src/main/java/com/my/web/async/DeferredResultHolder.java" />
         <option value="$PROJECT_DIR$/mysecuritydemo/src/main/java/com/my/web/async/AsyncController.java" />
+        <option value="$PROJECT_DIR$/mysecuritydemo/src/main/java/com/my/web/async/QueueListener.java" />
+        <option value="$PROJECT_DIR$/mysecuritydemo/src/main/java/com/my/web/async/MockQueue.java" />
+        <option value="$PROJECT_DIR$/mysecuritydemo/src/main/java/com/my/web/config/WebConfig.java" />
       </list>
     </option>
   </component>
@@ -337,6 +351,17 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="my" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="async" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mysecurity" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mysecurity" type="462c0819:PsiDirectoryNode" />
+              <item name="mysecuritydemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="my" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -415,7 +440,7 @@
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="settings.editor.selected.configurable" value="editor.breadcrumbs" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelWidth1" value="75" />
@@ -671,7 +696,7 @@
       <workItem from="1514201912503" duration="11668000" />
       <workItem from="1514217494183" duration="1479000" />
       <workItem from="1514273369962" duration="726000" />
-      <workItem from="1514274114418" duration="10961000" />
+      <workItem from="1514274114418" duration="15402000" />
     </task>
     <servers />
   </component>
@@ -708,7 +733,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33899000" />
+    <option name="totallyTimeSpent" value="38340000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -764,51 +789,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/mysecuritydemo/src/main/java/com/my/dto/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="19" column="55" lean-forward="false" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#777#778#0" expanded="false" />
-            <element signature="e#793#794#0" expanded="false" />
-            <element signature="e#827#828#0" expanded="false" />
-            <element signature="e#846#847#0" expanded="false" />
-            <element signature="e#916#917#0" expanded="false" />
-            <element signature="e#938#939#0" expanded="false" />
-            <element signature="e#983#984#0" expanded="false" />
-            <element signature="e#1014#1015#0" expanded="false" />
-            <element signature="e#1184#1185#0" expanded="false" />
-            <element signature="e#1206#1207#0" expanded="false" />
-            <element signature="e#1251#1252#0" expanded="false" />
-            <element signature="e#1282#1283#0" expanded="false" />
-            <element signature="e#1345#1346#0" expanded="false" />
-            <element signature="e#1362#1363#0" expanded="false" />
-            <element signature="e#1395#1396#0" expanded="false" />
-            <element signature="e#1416#1417#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mysecuritydemo/src/main/java/com/my/DemoApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="17" column="27" lean-forward="false" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#508#509#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mysecuritydemo/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="9" column="28" lean-forward="false" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mysecuritydemo/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="638">
@@ -1166,10 +1146,10 @@
         <state relative-caret-position="464">
           <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding>
-            <element signature="e#314#315#0" expanded="true" />
-            <element signature="e#330#331#0" expanded="true" />
-            <element signature="e#364#365#0" expanded="true" />
-            <element signature="e#383#384#0" expanded="true" />
+            <element signature="e#314#315#0" expanded="false" />
+            <element signature="e#330#331#0" expanded="false" />
+            <element signature="e#364#365#0" expanded="false" />
+            <element signature="e#383#384#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1238,16 +1218,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysecuritydemo/src/test/java/com/my/web/controller/FileControllerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="40" column="27" lean-forward="true" selection-start-line="40" selection-start-column="27" selection-end-line="40" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mysecuritydemo/src/main/java/com/my/web/aspect/TimeAspect.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="203">
@@ -1255,14 +1225,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mysecuritydemo/src/main/java/com/my/web/config/WebConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="19" column="6" lean-forward="false" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1290,13 +1252,67 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysecuritydemo/src/main/java/com/my/web/async/AsyncController.java">
+    <entry file="file://$PROJECT_DIR$/mysecuritydemo/src/main/java/com/my/web/async/DeferredResultHolder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="27" column="10" lean-forward="true" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
+        <state relative-caret-position="251">
+          <caret line="14" column="44" lean-forward="false" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#468#469#0" expanded="true" />
+            <element signature="e#491#492#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysecuritydemo/src/test/java/com/my/web/controller/FileControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="40" column="27" lean-forward="true" selection-start-line="40" selection-start-column="27" selection-end-line="40" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysecuritydemo/src/main/java/com/my/web/async/AsyncController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-445">
+          <caret line="24" column="71" lean-forward="true" selection-start-line="24" selection-start-column="71" selection-end-line="24" selection-end-column="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysecuritydemo/src/main/java/com/my/web/async/MockQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="30" column="23" lean-forward="false" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#343#344#0" expanded="true" />
+            <element signature="e#367#368#0" expanded="true" />
+            <element signature="e#792#793#0" expanded="true" />
+            <element signature="e#819#820#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysecuritydemo/src/main/java/com/my/web/async/QueueListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="628">
+          <caret line="42" column="19" lean-forward="false" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysecuritydemo/src/main/java/com/my/web/config/WebConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
