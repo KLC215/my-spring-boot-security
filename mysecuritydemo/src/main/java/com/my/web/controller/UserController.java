@@ -3,6 +3,8 @@ package com.my.web.controller;
 import com.fasterxml.jackson.annotation.JsonView;
 import com.my.dto.User;
 import com.my.dto.UserQueryParameters;
+import io.swagger.annotations.ApiOperation;
+import io.swagger.annotations.ApiParam;
 import org.apache.commons.lang.builder.ReflectionToStringBuilder;
 import org.apache.commons.lang.builder.ToStringStyle;
 import org.springframework.data.domain.Pageable;
@@ -20,6 +22,7 @@ public class UserController {
 
 	@GetMapping()
 	@JsonView(User.UserGeneralJsonView.class)
+	@ApiOperation(value = "Fetch all users")
 	public List<User> index(UserQueryParameters query, @PageableDefault(size = 10, page = 0, sort = "username,asc") Pageable pageable) {
 		System.out.println(ReflectionToStringBuilder.toString(query, ToStringStyle.MULTI_LINE_STYLE));
 		System.out.println(pageable.getPageSize());
@@ -37,7 +40,7 @@ public class UserController {
 
 	@GetMapping("/{id:\\d+}")
 	@JsonView(User.UserDetailJsonView.class)
-	public User show(@PathVariable Integer id) {
+	public User show(@ApiParam(value = "Id of user") @PathVariable Integer id) {
 		System.out.println("UserController->show(): start");
 
 		// Handled by Interceptor because there is no setting in ControllerExceptionHandler

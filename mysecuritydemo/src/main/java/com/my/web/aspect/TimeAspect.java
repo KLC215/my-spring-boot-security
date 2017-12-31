@@ -2,12 +2,14 @@ package com.my.web.aspect;
 
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
+import org.aspectj.lang.annotation.Aspect;
+import org.springframework.stereotype.Component;
 
 import java.util.Arrays;
 import java.util.Date;
 
-//@Aspect
-//@Component
+@Aspect
+@Component
 public class TimeAspect {
 
 	// Which method can be worked with this aspect

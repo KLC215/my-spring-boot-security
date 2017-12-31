@@ -1,10 +1,17 @@
 package com.my.dto;
 
+import io.swagger.annotations.ApiModelProperty;
+
 public class UserQueryParameters {
 
 	private String username;
+
+	@ApiModelProperty(value = "Age of user")
 	private int age;
+
+	@ApiModelProperty(value = "Maximum age of user")
 	private int maxAge;
+
 	private String somethingYouWantTo;
 
 	public String getUsername() {
