@@ -4,8 +4,13 @@
     <list default="true" id="d5b06eaf-19fa-4ae7-aa2d-7c6c3860a0f4" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/mysecuritybrowser/src/main/java/com/my/security/browser/BrowserSecurityConfig.java" afterPath="$PROJECT_DIR$/mysecuritybrowser/src/main/java/com/my/security/browser/BrowserSecurityConfig.java" />
-      <change beforePath="$PROJECT_DIR$/mysecuritybrowser/target/classes/com/my/security/browser/BrowserSecurityConfig.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/mysecuritybrowser/src/main/resources/resources/my-login.html" afterPath="$PROJECT_DIR$/mysecuritybrowser/src/main/resources/resources/my-login.html" />
+      <change beforePath="$PROJECT_DIR$/mysecuritybrowser/target/classes/com/my/security/browser/BrowserSecurityConfig.class" afterPath="$PROJECT_DIR$/mysecuritybrowser/target/classes/com/my/security/browser/BrowserSecurityConfig.class" />
+      <change beforePath="$PROJECT_DIR$/mysecuritybrowser/target/classes/resources/my-login.html" afterPath="$PROJECT_DIR$/mysecuritybrowser/target/classes/resources/my-login.html" />
+      <change beforePath="$PROJECT_DIR$/mysecuritycore/src/main/java/com/my/security/core/properties/BrowserProperties.java" afterPath="$PROJECT_DIR$/mysecuritycore/src/main/java/com/my/security/core/properties/BrowserProperties.java" />
+      <change beforePath="$PROJECT_DIR$/mysecuritycore/target/classes/com/my/security/core/properties/BrowserProperties.class" afterPath="$PROJECT_DIR$/mysecuritycore/target/classes/com/my/security/core/properties/BrowserProperties.class" />
       <change beforePath="$PROJECT_DIR$/mysecuritydemo/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/mysecuritydemo/src/main/resources/application.properties" />
+      <change beforePath="$PROJECT_DIR$/mysecuritydemo/src/main/resources/resources/demo-login.html" afterPath="$PROJECT_DIR$/mysecuritydemo/src/main/resources/resources/demo-login.html" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -31,18 +36,28 @@
       <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mysecuritydemo/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="11" column="1" lean-forward="false" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+            <state relative-caret-position="261">
+              <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mysecuritydemo/src/main/resources/resources/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            <state relative-caret-position="261">
+              <caret line="9" column="7" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="my-login.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mysecuritybrowser/src/main/resources/resources/my-login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="241">
+              <caret line="101" column="77" lean-forward="false" selection-start-line="101" selection-start-column="77" selection-end-line="101" selection-end-column="77" />
               <folding />
             </state>
           </provider>
@@ -51,44 +66,10 @@
       <file leaf-file-name="MyAuthenticationSuccessHandler.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mysecuritybrowser/src/main/java/com/my/security/browser/auth/MyAuthenticationSuccessHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="26" selection-end-column="50" />
+            <state relative-caret-position="212">
+              <caret line="35" column="16" lean-forward="false" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SecurityProperties.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mysecuritycore/src/main/java/com/my/security/core/properties/SecurityProperties.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding>
-                <element signature="e#305#306#0" expanded="true" />
-                <element signature="e#326#327#0" expanded="true" />
-                <element signature="e#380#381#0" expanded="true" />
-                <element signature="e#409#410#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BrowserProperties.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mysecuritycore/src/main/java/com/my/security/core/properties/BrowserProperties.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="13" column="35" lean-forward="true" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
-              <folding>
-                <element signature="e#201#202#0" expanded="true" />
-                <element signature="e#224#225#0" expanded="true" />
-                <element signature="e#271#272#0" expanded="true" />
-                <element signature="e#304#305#0" expanded="true" />
-                <element signature="e#340#341#0" expanded="true" />
-                <element signature="e#363#364#0" expanded="true" />
-                <element signature="e#413#414#0" expanded="true" />
-                <element signature="e#446#447#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -98,7 +79,7 @@
         <entry file="file://$PROJECT_DIR$/mysecuritycore/src/main/java/com/my/security/core/properties/LoginType.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="145">
-              <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+              <caret line="5" column="1" lean-forward="false" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -107,8 +88,8 @@
       <file leaf-file-name="demo-login.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mysecuritydemo/src/main/resources/resources/demo-login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="87" column="21" lean-forward="false" selection-start-line="87" selection-start-column="21" selection-end-line="87" selection-end-column="21" />
+            <state relative-caret-position="67">
+              <caret line="101" column="64" lean-forward="false" selection-start-line="101" selection-start-column="64" selection-end-line="101" selection-end-column="64" />
               <folding>
                 <element signature="n#style#0;n#head#0;n#html#0;n#!!top" expanded="false" />
               </folding>
@@ -116,14 +97,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BrowserSecurityConfig.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="BrowserSecurityConfig.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mysecuritybrowser/src/main/java/com/my/security/browser/BrowserSecurityConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="37" column="36" lean-forward="true" selection-start-line="37" selection-start-column="36" selection-end-line="37" selection-end-column="36" />
+            <state relative-caret-position="-165">
+              <caret line="74" column="96" lean-forward="true" selection-start-line="74" selection-start-column="96" selection-end-line="74" selection-end-column="96" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyUserDetailsService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mysecuritybrowser/src/main/java/com/my/security/browser/MyUserDetailsService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="725">
+              <caret line="34" column="21" lean-forward="false" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -131,20 +122,8 @@
       <file leaf-file-name="MyAuthenticationFailureHandler.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mysecuritybrowser/src/main/java/com/my/security/browser/auth/MyAuthenticationFailureHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="27" column="50" lean-forward="true" selection-start-line="27" selection-start-column="50" selection-end-line="27" selection-end-column="50" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BrowserSecurityController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mysecuritybrowser/src/main/java/com/my/security/browser/BrowserSecurityController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="52" column="94" lean-forward="false" selection-start-line="52" selection-start-column="94" selection-end-line="52" selection-end-column="94" />
+            <state relative-caret-position="377">
+              <caret line="27" column="50" lean-forward="false" selection-start-line="27" selection-start-column="50" selection-end-line="27" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -222,19 +201,19 @@
         <option value="$PROJECT_DIR$/mysecuritybrowser/src/main/java/com/my/security/browser/MyUserDetailService.java" />
         <option value="$PROJECT_DIR$/mysecuritybrowser/src/main/java/com/my/security/browser/MyUserDetailsService.java" />
         <option value="$PROJECT_DIR$/mysecuritybrowser/src/main/java/com/my/security/browser/support/SimpleLoginResponse.java" />
-        <option value="$PROJECT_DIR$/mysecuritybrowser/src/main/resources/resources/my-login.html" />
-        <option value="$PROJECT_DIR$/mysecuritydemo/src/main/resources/resources/demo-login.html" />
         <option value="$PROJECT_DIR$/mysecuritycore/src/main/java/com/my/security/core/properties/SecurityCoreConfig.java" />
         <option value="$PROJECT_DIR$/mysecuritycore/src/main/java/com/my/security/core/SecurityCoreConfig.java" />
         <option value="$PROJECT_DIR$/mysecuritycore/src/main/java/com/my/security/core/properties/SecurityProperties.java" />
         <option value="$PROJECT_DIR$/mysecuritybrowser/src/main/java/com/my/security/browser/BrowserSecurityController.java" />
-        <option value="$PROJECT_DIR$/mysecuritybrowser/src/main/java/com/my/security/browser/BrowserSecurityConfig.java" />
         <option value="$PROJECT_DIR$/mysecuritycore/src/main/java/com/my/security/core/properties/LoginType.java" />
-        <option value="$PROJECT_DIR$/mysecuritycore/src/main/java/com/my/security/core/properties/BrowserProperties.java" />
         <option value="$PROJECT_DIR$/mysecuritybrowser/src/main/java/com/my/security/browser/auth/MyAuthenticationSuccessHandler.java" />
         <option value="$PROJECT_DIR$/mysecuritybrowser/src/main/java/com/my/security/browser/auth/MyAuthenticationFailureHandler.java" />
-        <option value="$PROJECT_DIR$/mysecuritydemo/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/mysecuritydemo/src/main/resources/resources/index.html" />
+        <option value="$PROJECT_DIR$/mysecuritydemo/src/main/resources/resources/demo-login.html" />
+        <option value="$PROJECT_DIR$/mysecuritycore/src/main/java/com/my/security/core/properties/BrowserProperties.java" />
+        <option value="$PROJECT_DIR$/mysecuritybrowser/src/main/java/com/my/security/browser/BrowserSecurityConfig.java" />
+        <option value="$PROJECT_DIR$/mysecuritybrowser/src/main/resources/resources/my-login.html" />
+        <option value="$PROJECT_DIR$/mysecuritydemo/src/main/resources/application.properties" />
       </list>
     </option>
   </component>
@@ -252,9 +231,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="867" />
-    <option name="y" value="217" />
-    <option name="width" value="953" />
+    <option name="x" value="421" />
+    <option name="y" value="450" />
+    <option name="width" value="945" />
     <option name="height" value="1048" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -275,7 +254,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -446,6 +424,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
@@ -715,7 +694,10 @@
       <workItem from="1514274114418" duration="18236000" />
       <workItem from="1514302428418" duration="286000" />
       <workItem from="1514704323871" duration="49000" />
-      <workItem from="1514704392435" duration="10316000" />
+      <workItem from="1514704392435" duration="10914000" />
+      <workItem from="1514796100437" duration="122000" />
+      <workItem from="1514796243233" duration="2651000" />
+      <workItem from="1514798956946" duration="968000" />
     </task>
     <servers />
   </component>
@@ -752,7 +734,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51825000" />
+    <option name="totallyTimeSpent" value="56164000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -764,7 +746,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="32" width="1922" height="1049" extended-state="6" />
+    <frame x="421" y="450" width="1922" height="1049" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -965,9 +947,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1044">
           <caret line="42" column="19" lean-forward="false" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -975,9 +954,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="145">
           <caret line="11" column="6" lean-forward="false" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -985,9 +961,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="464">
           <caret line="24" column="71" lean-forward="false" selection-start-line="24" selection-start-column="71" selection-end-line="24" selection-end-column="71" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -995,7 +968,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
           <caret line="25" column="7" lean-forward="false" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1010,7 +982,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="638">
           <caret line="24" column="8" lean-forward="false" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="106" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1027,13 +998,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="30" column="23" lean-forward="false" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#343#344#0" expanded="false" />
-            <element signature="e#367#368#0" expanded="false" />
-            <element signature="e#792#793#0" expanded="false" />
-            <element signature="e#819#820#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1049,7 +1013,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="319">
           <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1057,27 +1020,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="196">
           <caret line="76" column="11" lean-forward="false" selection-start-line="76" selection-start-column="11" selection-end-line="76" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mysecuritybrowser/src/main/resources/resources/my-login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="89" column="66" lean-forward="false" selection-start-line="89" selection-start-column="66" selection-end-line="89" selection-end-column="66" />
-          <folding>
-            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mysecuritybrowser/src/main/java/com/my/security/browser/MyUserDetailsService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="34" column="21" lean-forward="false" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1085,13 +1027,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="174">
           <caret line="6" column="48" lean-forward="false" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
-          <folding>
-            <element signature="e#177#178#0" expanded="true" />
-            <element signature="e#208#209#0" expanded="true" />
-            <element signature="e#229#230#0" expanded="true" />
-            <element signature="e#272#273#0" expanded="true" />
-            <element signature="e#301#302#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1099,7 +1034,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="377">
           <caret line="42" column="47" lean-forward="false" selection-start-line="42" selection-start-column="47" selection-end-line="42" selection-end-column="47" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1108,7 +1042,7 @@
         <state relative-caret-position="203">
           <caret line="7" column="55" lean-forward="false" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="55" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1123,8 +1057,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mysecuritycore/src/main/java/com/my/security/core/properties/SecurityProperties.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        <state relative-caret-position="290">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding>
             <element signature="e#305#306#0" expanded="true" />
             <element signature="e#326#327#0" expanded="true" />
@@ -1136,28 +1070,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mysecuritybrowser/src/main/java/com/my/security/browser/BrowserSecurityController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
+        <state relative-caret-position="986">
           <caret line="52" column="94" lean-forward="false" selection-start-line="52" selection-start-column="94" selection-end-line="52" selection-end-column="94" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mysecuritydemo/src/main/resources/resources/demo-login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="87" column="21" lean-forward="false" selection-start-line="87" selection-start-column="21" selection-end-line="87" selection-end-column="21" />
-          <folding>
-            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mysecuritybrowser/src/main/java/com/my/security/browser/BrowserSecurityConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="37" column="36" lean-forward="true" selection-start-line="37" selection-start-column="36" selection-end-line="37" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1167,61 +1081,99 @@
     <entry file="file://$PROJECT_DIR$/mysecuritycore/src/main/java/com/my/security/core/properties/LoginType.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="145">
-          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+          <caret line="5" column="1" lean-forward="false" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysecuritybrowser/src/main/java/com/my/security/browser/auth/MyAuthenticationFailureHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="27" column="50" lean-forward="false" selection-start-line="27" selection-start-column="50" selection-end-line="27" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysecuritydemo/src/main/resources/resources/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="9" column="7" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysecuritybrowser/src/main/java/com/my/security/browser/MyUserDetailsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="725">
+          <caret line="34" column="21" lean-forward="false" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mysecuritycore/src/main/java/com/my/security/core/properties/BrowserProperties.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="13" column="35" lean-forward="true" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+        <state relative-caret-position="304">
+          <caret line="30" column="47" lean-forward="false" selection-start-line="30" selection-start-column="47" selection-end-line="30" selection-end-column="47" />
           <folding>
-            <element signature="e#201#202#0" expanded="true" />
-            <element signature="e#224#225#0" expanded="true" />
+            <element signature="e#248#249#0" expanded="true" />
             <element signature="e#271#272#0" expanded="true" />
-            <element signature="e#304#305#0" expanded="true" />
-            <element signature="e#340#341#0" expanded="true" />
-            <element signature="e#363#364#0" expanded="true" />
-            <element signature="e#413#414#0" expanded="true" />
-            <element signature="e#446#447#0" expanded="true" />
+            <element signature="e#318#319#0" expanded="true" />
+            <element signature="e#351#352#0" expanded="true" />
+            <element signature="e#387#388#0" expanded="true" />
+            <element signature="e#410#411#0" expanded="true" />
+            <element signature="e#460#461#0" expanded="true" />
+            <element signature="e#493#494#0" expanded="true" />
+            <element signature="e#538#539#0" expanded="true" />
+            <element signature="e#576#577#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mysecuritybrowser/src/main/java/com/my/security/browser/auth/MyAuthenticationSuccessHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="26" selection-end-column="50" />
+        <state relative-caret-position="212">
+          <caret line="35" column="16" lean-forward="false" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysecuritybrowser/src/main/java/com/my/security/browser/auth/MyAuthenticationFailureHandler.java">
+    <entry file="file://$PROJECT_DIR$/mysecuritydemo/src/main/resources/resources/demo-login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="27" column="50" lean-forward="true" selection-start-line="27" selection-start-column="50" selection-end-line="27" selection-end-column="50" />
+        <state relative-caret-position="67">
+          <caret line="101" column="64" lean-forward="false" selection-start-line="101" selection-start-column="64" selection-end-line="101" selection-end-column="64" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysecuritybrowser/src/main/resources/resources/my-login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="101" column="77" lean-forward="false" selection-start-line="101" selection-start-column="77" selection-end-line="101" selection-end-column="77" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mysecuritydemo/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="11" column="1" lean-forward="false" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        <state relative-caret-position="261">
+          <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysecuritydemo/src/main/resources/resources/index.html">
+    <entry file="file://$PROJECT_DIR$/mysecuritybrowser/src/main/java/com/my/security/browser/BrowserSecurityConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
+        <state relative-caret-position="-165">
+          <caret line="74" column="96" lean-forward="true" selection-start-line="74" selection-start-column="96" selection-end-line="74" selection-end-column="96" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
