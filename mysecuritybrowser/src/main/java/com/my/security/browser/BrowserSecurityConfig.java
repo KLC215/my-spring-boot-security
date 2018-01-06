@@ -60,8 +60,10 @@ public class BrowserSecurityConfig extends WebSecurityConfigurerAdapter {
 
 		CaptchaFilter captchaFilter = new CaptchaFilter();
 		captchaFilter.setAuthenticationFailureHandler(myAuthenticationFailureHandler);
+		captchaFilter.setSecurityProperties(securityProperties);
+		captchaFilter.afterPropertiesSet();
 
-			// Add custom captcha filter before checking username and password
+		// Add custom captcha filter before checking username and password
 		http.addFilterBefore(captchaFilter, UsernamePasswordAuthenticationFilter.class)
 			// Use HTML Form to login
 			.formLogin()

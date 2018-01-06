@@ -1,9 +1,12 @@
 package com.my.security.core.verification.captcha;
 
+import com.my.security.core.properties.SecurityProperties;
 import org.apache.commons.lang.StringUtils;
+import org.springframework.beans.factory.InitializingBean;
 import org.springframework.security.web.authentication.AuthenticationFailureHandler;
 import org.springframework.social.connect.web.HttpSessionSessionStrategy;
 import org.springframework.social.connect.web.SessionStrategy;
+import org.springframework.util.AntPathMatcher;
 import org.springframework.web.bind.ServletRequestBindingException;
 import org.springframework.web.bind.ServletRequestUtils;
 import org.springframework.web.context.request.ServletWebRequest;
@@ -14,14 +17,40 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
+import java.util.Arrays;
+import java.util.HashSet;
+import java.util.Set;
 
-public class CaptchaFilter extends OncePerRequestFilter {
+public class CaptchaFilter extends OncePerRequestFilter implements InitializingBean {
 
 	private AuthenticationFailureHandler authenticationFailureHandler;
-	private SessionStrategy sessionStrategy	= new HttpSessionSessionStrategy();
+	private SessionStrategy sessionStrategy = new HttpSessionSessionStrategy();
+	private Set<String> urls = new HashSet<>();
+	private SecurityProperties securityProperties;
+	private AntPathMatcher antPathMatcher = new AntPathMatcher();
+
+	@Override
+	public void afterPropertiesSet() throws ServletException {
+		super.afterPropertiesSet();
+		String[] configUrls = StringUtils.splitByWholeSeparatorPreserveAllTokens(securityProperties.getCaptcha().getImage().getUrl(), ",");
+
+		// Assign urls in application properties to a set
+		urls.addAll(Arrays.asList(configUrls));
+
+		// `/auth/login` must be verified
+		urls.add("/auth/login");
+	}
 
 	@Override
 	protected void doFilterInternal(HttpServletRequest request, HttpServletResponse response, FilterChain filterChain) throws ServletException, IOException {
+
+		boolean goVerify = false;
+
+		for (String url : urls) {
+			if (antPathMatcher.match(url, request.getRequestURI())) {
+				goVerify = true;
+			}
+		}
 
 		/**
 		 *  If it is a login request
@@ -29,7 +58,7 @@ public class CaptchaFilter extends OncePerRequestFilter {
 		 *  		If the captcha entered by user is verified
 		 *  			then go to next filter
 		 */
-		if (StringUtils.equals("/auth/login", request.getRequestURI()) && StringUtils.equalsIgnoreCase(request.getMethod(), "POST")) {
+		if (goVerify) {
 			try {
 				verify(new ServletWebRequest(request));
 			} catch (CaptchaException e) {
@@ -51,16 +80,16 @@ public class CaptchaFilter extends OncePerRequestFilter {
 			throw new CaptchaException("Captcha cannot be null!");
 		}
 
-		if(codeInSession == null){
+		if (codeInSession == null) {
 			throw new CaptchaException("Captcha is not exist!");
 		}
 
-		if(codeInSession.isExpired()){
+		if (codeInSession.isExpired()) {
 			sessionStrategy.removeAttribute(request, CaptchaController.SESSION_KEY);
 			throw new CaptchaException("Captcha has been expired!");
 		}
 
-		if(!StringUtils.equals(codeInSession.getCode(), codeInRequest)) {
+		if (!StringUtils.equals(codeInSession.getCode(), codeInRequest)) {
 			throw new CaptchaException("Captcha are not match!");
 		}
 
@@ -81,5 +110,21 @@ public class CaptchaFilter extends OncePerRequestFilter {
 
 	public void setSessionStrategy(SessionStrategy sessionStrategy) {
 		this.sessionStrategy = sessionStrategy;
+	}
+
+	public SecurityProperties getSecurityProperties() {
+		return securityProperties;
+	}
+
+	public void setSecurityProperties(SecurityProperties securityProperties) {
+		this.securityProperties = securityProperties;
+	}
+
+	public Set<String> getUrls() {
+		return urls;
+	}
+
+	public void setUrls(Set<String> urls) {
+		this.urls = urls;
 	}
 }
