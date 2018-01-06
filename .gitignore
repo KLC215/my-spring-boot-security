@@ -3,3 +3,9 @@
 mysecuritydemo/target/classes/
 
 mysecuritydemo/target/test-classes/com/my/web/controller/
+
+*.class
+
+mysecuritybrowser/target/classes/com/my/security/browser/auth/
+
+mysecuritybrowser/target/classes/com/my/security/browser/

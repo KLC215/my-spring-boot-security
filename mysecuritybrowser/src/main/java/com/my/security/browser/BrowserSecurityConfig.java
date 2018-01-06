@@ -1,6 +1,7 @@
 package com.my.security.browser;
 
 import com.my.security.core.properties.SecurityProperties;
+import com.my.security.core.verification.captcha.CaptchaFilter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Bean;
@@ -12,6 +13,7 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.authentication.AuthenticationFailureHandler;
 import org.springframework.security.web.authentication.AuthenticationSuccessHandler;
+import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 import org.springframework.security.web.authentication.rememberme.JdbcTokenRepositoryImpl;
 import org.springframework.security.web.authentication.rememberme.PersistentTokenRepository;
 
@@ -56,8 +58,13 @@ public class BrowserSecurityConfig extends WebSecurityConfigurerAdapter {
 		// for HTTP basic authentication
 		//http.httpBasic()
 
-		// Use HTML Form to login
-		http.formLogin()
+		CaptchaFilter captchaFilter = new CaptchaFilter();
+		captchaFilter.setAuthenticationFailureHandler(myAuthenticationFailureHandler);
+
+			// Add custom captcha filter before checking username and password
+		http.addFilterBefore(captchaFilter, UsernamePasswordAuthenticationFilter.class)
+			// Use HTML Form to login
+			.formLogin()
 			// Define the login page
 			.loginPage("/auth/login")
 			// Define login process url
@@ -81,7 +88,8 @@ public class BrowserSecurityConfig extends WebSecurityConfigurerAdapter {
 			// Without any authorizations in login page
 			.antMatchers(
 					"/auth/login",
-					securityProperties.getBrowser().getLoginPage()
+					securityProperties.getBrowser().getLoginPage(),
+					"/captcha/image"
 			).permitAll()
 			// All requests
 			.anyRequest()
