@@ -4,6 +4,6 @@ import org.springframework.web.context.request.ServletWebRequest;
 
 public interface CaptchaGenerator {
 
-	ImageCaptcha createImageCaptcha(ServletWebRequest request);
+	Captcha generate(ServletWebRequest request);
 
 }

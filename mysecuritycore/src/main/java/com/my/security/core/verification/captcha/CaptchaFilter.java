@@ -1,6 +1,7 @@
 package com.my.security.core.verification.captcha;
 
 import com.my.security.core.properties.SecurityProperties;
+import com.my.security.core.verification.captcha.image.ImageCaptcha;
 import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.factory.InitializingBean;
 import org.springframework.security.web.authentication.AuthenticationFailureHandler;
@@ -28,6 +29,7 @@ public class CaptchaFilter extends OncePerRequestFilter implements InitializingB
 	private Set<String> urls = new HashSet<>();
 	private SecurityProperties securityProperties;
 	private AntPathMatcher antPathMatcher = new AntPathMatcher();
+	private final String SESSION_IMAGE_KEY = CaptchaProcessor.SESSION_KEY_PREFIX + "IMAGE";
 
 	@Override
 	public void afterPropertiesSet() throws ServletException {
@@ -72,7 +74,7 @@ public class CaptchaFilter extends OncePerRequestFilter implements InitializingB
 
 	private void verify(ServletWebRequest request) throws ServletRequestBindingException {
 		ImageCaptcha codeInSession = (ImageCaptcha) sessionStrategy.getAttribute(request,
-				CaptchaController.SESSION_KEY);
+				SESSION_IMAGE_KEY);
 
 		String codeInRequest = ServletRequestUtils.getStringParameter(request.getRequest(), "imageCaptcha");
 
@@ -85,7 +87,7 @@ public class CaptchaFilter extends OncePerRequestFilter implements InitializingB
 		}
 
 		if (codeInSession.isExpired()) {
-			sessionStrategy.removeAttribute(request, CaptchaController.SESSION_KEY);
+			sessionStrategy.removeAttribute(request, SESSION_IMAGE_KEY);
 			throw new CaptchaException("Captcha has been expired!");
 		}
 
@@ -93,7 +95,7 @@ public class CaptchaFilter extends OncePerRequestFilter implements InitializingB
 			throw new CaptchaException("Captcha are not match!");
 		}
 
-		sessionStrategy.removeAttribute(request, CaptchaController.SESSION_KEY);
+		sessionStrategy.removeAttribute(request, SESSION_IMAGE_KEY);
 	}
 
 	public AuthenticationFailureHandler getAuthenticationFailureHandler() {

@@ -91,7 +91,7 @@ public class BrowserSecurityConfig extends WebSecurityConfigurerAdapter {
 			.antMatchers(
 					"/auth/login",
 					securityProperties.getBrowser().getLoginPage(),
-					"/captcha/image"
+					"/captcha/*"
 			).permitAll()
 			// All requests
 			.anyRequest()

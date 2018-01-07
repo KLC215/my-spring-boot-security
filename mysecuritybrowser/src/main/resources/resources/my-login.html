@@ -109,6 +109,16 @@
                     </label>
                     <a href="#" class="pull-right need-help">Need help? </a><span class="clearfix"></span>
                 </form>
+                <form class="form-signin" method="post" action="/auth/login/mobile">
+                    <input type="text" name="mobile" class="form-control" value="12345678" placeholder="Mobile" required autofocus>
+                    <input type="text" name="password" class="form-control" placeholder="SMS Code" required>
+                    <a href="/captcha/sms?mobile=12345678">Send SMS Code</a>
+
+                    <button class="btn btn-lg btn-primary btn-block" type="submit">
+                        Sign in
+                    </button>
+                    <a href="#" class="pull-right need-help">Need help? </a><span class="clearfix"></span>
+                </form>
             </div>
             <a href="#" class="text-center new-account">Create an account </a>
         </div>

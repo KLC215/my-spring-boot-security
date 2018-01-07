@@ -2,21 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5b06eaf-19fa-4ae7-aa2d-7c6c3860a0f4" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/mysecuritybrowser/target/classes/com/my/security/browser/BrowserSecurityController.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/mysecuritybrowser/target/classes/com/my/security/browser/MyUserDetailsService.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/mysecuritybrowser/target/classes/com/my/security/browser/auth/MyAuthenticationFailureHandler.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/mysecuritybrowser/target/classes/com/my/security/browser/auth/MyAuthenticationSuccessHandler.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/mysecuritybrowser/target/classes/com/my/security/browser/support/SimpleLoginResponse.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/mysecuritycore/target/classes/com/my/security/core/SecurityCoreConfig.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/mysecuritycore/target/classes/com/my/security/core/properties/BrowserProperties.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/mysecuritycore/target/classes/com/my/security/core/properties/LoginType.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/mysecuritycore/target/classes/com/my/security/core/properties/SecurityProperties.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mysecuritycore/src/main/java/com/my/security/core/verification/captcha/image/ImageCaptcha.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/mysecuritybrowser/src/main/java/com/my/security/browser/BrowserSecurityConfig.java" afterPath="$PROJECT_DIR$/mysecuritybrowser/src/main/java/com/my/security/browser/BrowserSecurityConfig.java" />
       <change beforePath="$PROJECT_DIR$/mysecuritybrowser/src/main/resources/resources/my-login.html" afterPath="$PROJECT_DIR$/mysecuritybrowser/src/main/resources/resources/my-login.html" />
-      <change beforePath="$PROJECT_DIR$/mysecuritycore/src/main/java/com/my/security/core/properties/SecurityProperties.java" afterPath="$PROJECT_DIR$/mysecuritycore/src/main/java/com/my/security/core/properties/SecurityProperties.java" />
+      <change beforePath="$PROJECT_DIR$/mysecuritybrowser/target/classes/resources/my-login.html" afterPath="$PROJECT_DIR$/mysecuritybrowser/target/classes/resources/my-login.html" />
+      <change beforePath="$PROJECT_DIR$/mysecuritycore/src/main/java/com/my/security/core/properties/CaptchaProperties.java" afterPath="$PROJECT_DIR$/mysecuritycore/src/main/java/com/my/security/core/properties/CaptchaProperties.java" />
+      <change beforePath="$PROJECT_DIR$/mysecuritycore/src/main/java/com/my/security/core/properties/ImageCaptchaProperties.java" afterPath="$PROJECT_DIR$/mysecuritycore/src/main/java/com/my/security/core/properties/ImageCaptchaProperties.java" />
+      <change beforePath="$PROJECT_DIR$/mysecuritycore/src/main/java/com/my/security/core/verification/captcha/CaptchaBeanConfig.java" afterPath="$PROJECT_DIR$/mysecuritycore/src/main/java/com/my/security/core/verification/captcha/CaptchaBeanConfig.java" />
       <change beforePath="$PROJECT_DIR$/mysecuritycore/src/main/java/com/my/security/core/verification/captcha/CaptchaController.java" afterPath="$PROJECT_DIR$/mysecuritycore/src/main/java/com/my/security/core/verification/captcha/CaptchaController.java" />
       <change beforePath="$PROJECT_DIR$/mysecuritycore/src/main/java/com/my/security/core/verification/captcha/CaptchaFilter.java" afterPath="$PROJECT_DIR$/mysecuritycore/src/main/java/com/my/security/core/verification/captcha/CaptchaFilter.java" />
-      <change beforePath="$PROJECT_DIR$/mysecuritydemo/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/mysecuritydemo/src/main/resources/application.properties" />
+      <change beforePath="$PROJECT_DIR$/mysecuritycore/src/main/java/com/my/security/core/verification/captcha/CaptchaGenerator.java" afterPath="$PROJECT_DIR$/mysecuritycore/src/main/java/com/my/security/core/verification/captcha/CaptchaGenerator.java" />
+      <change beforePath="$PROJECT_DIR$/mysecuritycore/src/main/java/com/my/security/core/verification/captcha/ImageCaptcha.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/mysecuritycore/src/main/java/com/my/security/core/verification/captcha/ImageCaptchaGenerator.java" afterPath="$PROJECT_DIR$/mysecuritycore/src/main/java/com/my/security/core/verification/captcha/image/ImageCaptchaGenerator.java" />
+      <change beforePath="$PROJECT_DIR$/mysecuritydemo/src/main/java/com/my/captcha/DemoImageCaptchaGenerator.java" afterPath="$PROJECT_DIR$/mysecuritydemo/src/main/java/com/my/captcha/DemoImageCaptchaGenerator.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -39,79 +38,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DemoImageCaptchaGenerator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mysecuritydemo/src/main/java/com/my/captcha/DemoImageCaptchaGenerator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="7" column="33" lean-forward="false" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DemoApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mysecuritydemo/src/main/java/com/my/DemoApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CaptchaGenerator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mysecuritycore/src/main/java/com/my/security/core/verification/captcha/CaptchaGenerator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ImageCaptcha.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mysecuritycore/src/main/java/com/my/security/core/verification/captcha/ImageCaptcha.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1285">
-              <caret line="49" column="53" lean-forward="false" selection-start-line="49" selection-start-column="53" selection-end-line="49" selection-end-column="53" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#639#640#0" expanded="true" />
-                <element signature="e#658#659#0" expanded="true" />
-                <element signature="e#704#705#0" expanded="true" />
-                <element signature="e#729#730#0" expanded="true" />
-                <element signature="e#757#758#0" expanded="true" />
-                <element signature="e#775#776#0" expanded="true" />
-                <element signature="e#812#813#0" expanded="true" />
-                <element signature="e#835#836#0" expanded="true" />
-                <element signature="e#876#877#0" expanded="true" />
-                <element signature="e#900#901#0" expanded="true" />
-                <element signature="e#1022#1023#0" expanded="true" />
-                <element signature="e#1075#1076#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ImageCaptchaGenerator.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/mysecuritycore/src/main/java/com/my/security/core/verification/captcha/ImageCaptchaGenerator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="370">
-              <caret line="17" column="71" lean-forward="true" selection-start-line="17" selection-start-column="71" selection-end-line="17" selection-end-column="71" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="CaptchaController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mysecuritycore/src/main/java/com/my/security/core/verification/captcha/CaptchaController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+            <state relative-caret-position="299">
+              <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -119,24 +50,51 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CaptchaException.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mysecuritycore/src/main/java/com/my/security/core/verification/captcha/CaptchaException.java">
+      <file leaf-file-name="ServletWebRequest.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.13.RELEASE/spring-web-4.3.13.RELEASE.jar!/org/springframework/web/context/request/ServletWebRequest.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding>
-                <element signature="e#221#222#0" expanded="true" />
-                <element signature="e#238#239#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="200">
+              <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CaptchaBeanConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mysecuritycore/src/main/java/com/my/security/core/verification/captcha/CaptchaBeanConfig.java">
+      <file leaf-file-name="my-login.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mysecuritybrowser/src/main/resources/resources/my-login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="652">
+              <caret line="118" column="29" lean-forward="false" selection-start-line="118" selection-start-column="29" selection-end-line="118" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DemoImageCaptchaGenerator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mysecuritydemo/src/main/java/com/my/captcha/DemoImageCaptchaGenerator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="116">
+              <caret line="6" column="2" lean-forward="false" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TimeFilter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mysecuritydemo/src/main/java/com/my/web/filter/TimeFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="196">
+              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SMSCaptchaProcessor.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mysecuritycore/src/main/java/com/my/security/core/verification/captcha/sms/SMSCaptchaProcessor.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
-              <caret line="15" column="59" lean-forward="false" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="59" />
+              <caret line="16" column="91" lean-forward="false" selection-start-line="16" selection-start-column="91" selection-end-line="16" selection-end-column="91" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -147,46 +105,53 @@
       <file leaf-file-name="CaptchaFilter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mysecuritycore/src/main/java/com/my/security/core/verification/captcha/CaptchaFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2588">
-              <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+            <state relative-caret-position="196">
+              <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#3753#3754#0" expanded="true" />
-                <element signature="e#3782#3783#0" expanded="true" />
-                <element signature="e#4142#4143#0" expanded="true" />
-                <element signature="e#4160#4161#0" expanded="true" />
-                <element signature="e#4202#4203#0" expanded="true" />
-                <element signature="e#4225#4226#0" expanded="true" />
+                <element signature="e#3875#3876#0" expanded="true" />
+                <element signature="e#3904#3905#0" expanded="true" />
+                <element signature="e#4264#4265#0" expanded="true" />
+                <element signature="e#4282#4283#0" expanded="true" />
+                <element signature="e#4324#4325#0" expanded="true" />
+                <element signature="e#4347#4348#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ImageCaptchaProperties.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mysecuritycore/src/main/java/com/my/security/core/properties/ImageCaptchaProperties.java">
+      <file leaf-file-name="CaptchaBeanConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mysecuritycore/src/main/java/com/my/security/core/verification/captcha/CaptchaBeanConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="42" column="28" lean-forward="false" selection-start-line="42" selection-start-column="28" selection-end-line="42" selection-end-column="28" />
+            <state relative-caret-position="444">
+              <caret line="27" column="46" lean-forward="false" selection-start-line="27" selection-start-column="46" selection-end-line="27" selection-end-column="46" />
               <folding>
-                <element signature="e#235#236#0" expanded="true" />
-                <element signature="e#254#255#0" expanded="true" />
-                <element signature="e#290#291#0" expanded="true" />
-                <element signature="e#315#316#0" expanded="true" />
-                <element signature="e#342#343#0" expanded="true" />
-                <element signature="e#362#363#0" expanded="true" />
-                <element signature="e#400#401#0" expanded="true" />
-                <element signature="e#427#428#0" expanded="true" />
-                <element signature="e#454#455#0" expanded="true" />
-                <element signature="e#474#475#0" expanded="true" />
-                <element signature="e#512#513#0" expanded="true" />
-                <element signature="e#539#540#0" expanded="true" />
-                <element signature="e#568#569#0" expanded="true" />
-                <element signature="e#590#591#0" expanded="true" />
-                <element signature="e#632#633#0" expanded="true" />
-                <element signature="e#663#664#0" expanded="true" />
-                <element signature="e#707#708#0" expanded="true" />
-                <element signature="e#742#743#0" expanded="true" />
-                <element signature="e#763#764#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ImageCaptchaProcessor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mysecuritycore/src/main/java/com/my/security/core/verification/captcha/image/ImageCaptchaProcessor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="212">
+              <caret line="8" column="24" lean-forward="false" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AbstractCaptchaProcessor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mysecuritycore/src/main/java/com/my/security/core/verification/captcha/AbstractCaptchaProcessor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="196">
+              <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1093#1123#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -200,6 +165,7 @@
         <option value="AnnotationType" />
         <option value="Enum" />
         <option value="HTML File" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -225,19 +191,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/mysecuritydemo/src/main/resources/resources/error.html" />
-        <option value="$PROJECT_DIR$/mysecuritydemo/src/main/resources/resources/error/404.html" />
-        <option value="$PROJECT_DIR$/mysecuritydemo/src/main/resources/resources/error/500.html" />
-        <option value="$PROJECT_DIR$/mysecuritydemo/src/main/java/com/my/web/controller/ControllerExceptionHandler.java" />
-        <option value="$PROJECT_DIR$/mysecuritydemo/src/main/java/com/my/exception/UserNotExistException.java" />
-        <option value="$PROJECT_DIR$/mysecuritydemo/src/main/java/com/my/web/filter/TimeFilter.java" />
-        <option value="$PROJECT_DIR$/mysecuritydemo/src/main/java/com/my/web/interceptor/TimeInterceptor.java" />
-        <option value="$PROJECT_DIR$/mysecuritydemo/src/test/java/com/my/web/controller/UserControllerTest.java" />
-        <option value="$PROJECT_DIR$/mysecuritydemo/src/main/java/com/my/dto/FileInfo.java" />
-        <option value="$PROJECT_DIR$/mysecuritydemo/src/main/java/com/my/web/controller/FileController.java" />
-        <option value="$PROJECT_DIR$/mysecuritydemo/src/test/java/com/my/web/controller/FileControllerTest.java" />
-        <option value="$PROJECT_DIR$/mysecuritydemo/src/main/java/com/my/web/async/DefferredResultHolder.java" />
-        <option value="$PROJECT_DIR$/mysecuritydemo/src/main/java/com/my/web/async/DeferredResultHolder.java" />
         <option value="$PROJECT_DIR$/mysecuritydemo/src/main/java/com/my/web/async/AsyncController.java" />
         <option value="$PROJECT_DIR$/mysecuritydemo/src/main/java/com/my/web/async/QueueListener.java" />
         <option value="$PROJECT_DIR$/mysecuritydemo/src/main/java/com/my/web/async/MockQueue.java" />
@@ -261,21 +214,34 @@
         <option value="$PROJECT_DIR$/mysecuritycore/src/main/java/com/my/security/core/properties/BrowserProperties.java" />
         <option value="$PROJECT_DIR$/mysecuritycore/src/main/java/com/my/security/core/verification/captcha/ImageCaptchaController.java" />
         <option value="$PROJECT_DIR$/mysecuritycore/src/main/java/com/my/security/core/verification/captcha/CaptchaException.java" />
-        <option value="$PROJECT_DIR$/mysecuritycore/src/main/java/com/my/security/core/verification/captcha/ImageCaptcha.java" />
         <option value="$PROJECT_DIR$/mysecuritybrowser/src/main/java/com/my/security/browser/auth/MyAuthenticationFailureHandler.java" />
         <option value="$PROJECT_DIR$/mysecuritycore/src/main/java/com/my/security/core/properties/SecurityProperties.java" />
-        <option value="$PROJECT_DIR$/mysecuritycore/src/main/java/com/my/security/core/properties/CaptchaProperties.java" />
+        <option value="$PROJECT_DIR$/mysecuritydemo/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/mysecuritydemo/src/main/java/com/my/captcha/DemoCaptchaGenerator.java" />
+        <option value="$PROJECT_DIR$/mysecuritycore/src/main/java/com/my/security/core/verification/captcha/ImageCaptchaGenerator.java" />
+        <option value="$PROJECT_DIR$/mysecuritycore/src/main/java/com/my/security/core/verification/captcha/ImageCaptcha.java" />
+        <option value="$PROJECT_DIR$/mysecuritycore/src/main/java/com/my/security/core/verification/captcha/SMSCaptcha.java" />
+        <option value="$PROJECT_DIR$/mysecuritycore/src/main/java/com/my/security/core/verification/captcha/CaptchaGenerator.java" />
+        <option value="$PROJECT_DIR$/mysecuritycore/src/main/java/com/my/security/core/verification/captcha/sms/SMSCaptchaService.java" />
+        <option value="$PROJECT_DIR$/mysecuritycore/src/main/java/com/my/security/core/verification/captcha/sms/DefaultSMSCaptchaService.java" />
         <option value="$PROJECT_DIR$/mysecuritybrowser/src/main/resources/resources/my-login.html" />
+        <option value="$PROJECT_DIR$/mysecuritycore/src/main/java/com/my/security/core/properties/SMSCaptchaProperties.java" />
         <option value="$PROJECT_DIR$/mysecuritycore/src/main/java/com/my/security/core/properties/ImageCaptchaProperties.java" />
+        <option value="$PROJECT_DIR$/mysecuritycore/src/main/java/com/my/security/core/properties/CaptchaProperties.java" />
+        <option value="$PROJECT_DIR$/mysecuritycore/src/main/java/com/my/security/core/verification/captcha/SMSCaptchaGenerator.java" />
+        <option value="$PROJECT_DIR$/mysecuritycore/src/main/java/com/my/security/core/verification/captcha/CaptchaProcessor.java" />
+        <option value="$PROJECT_DIR$/mysecuritycore/src/main/java/com/my/security/core/verification/captcha/AbstractCaptchaProcessor.java" />
+        <option value="$PROJECT_DIR$/mysecuritycore/src/main/java/com/my/security/core/verification/captcha/image/ImageCaptchaProcessor.java" />
+        <option value="$PROJECT_DIR$/mysecuritycore/src/main/java/com/my/security/core/verification/captcha/image/ImageCaptcha.java" />
+        <option value="$PROJECT_DIR$/mysecuritycore/src/main/java/com/my/security/core/verification/captcha/image/ImageCaptchaGenerator.java" />
+        <option value="$PROJECT_DIR$/mysecuritycore/src/main/java/com/my/security/core/verification/captcha/sms/SMSCaptcha.java" />
+        <option value="$PROJECT_DIR$/mysecuritycore/src/main/java/com/my/security/core/verification/captcha/sms/SMSCaptchaGenerator.java" />
         <option value="$PROJECT_DIR$/mysecuritycore/src/main/java/com/my/security/core/verification/captcha/CaptchaFilter.java" />
         <option value="$PROJECT_DIR$/mysecuritybrowser/src/main/java/com/my/security/browser/BrowserSecurityConfig.java" />
-        <option value="$PROJECT_DIR$/mysecuritydemo/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/mysecuritycore/src/main/java/com/my/security/core/verification/captcha/CaptchaGenerator.java" />
-        <option value="$PROJECT_DIR$/mysecuritycore/src/main/java/com/my/security/core/verification/captcha/CaptchaBeanConfig.java" />
-        <option value="$PROJECT_DIR$/mysecuritydemo/src/main/java/com/my/captcha/DemoCaptchaGenerator.java" />
-        <option value="$PROJECT_DIR$/mysecuritydemo/src/main/java/com/my/captcha/DemoImageCaptchaGenerator.java" />
         <option value="$PROJECT_DIR$/mysecuritycore/src/main/java/com/my/security/core/verification/captcha/CaptchaController.java" />
-        <option value="$PROJECT_DIR$/mysecuritycore/src/main/java/com/my/security/core/verification/captcha/ImageCaptchaGenerator.java" />
+        <option value="$PROJECT_DIR$/mysecuritydemo/src/main/java/com/my/captcha/DemoImageCaptchaGenerator.java" />
+        <option value="$PROJECT_DIR$/mysecuritycore/src/main/java/com/my/security/core/verification/captcha/CaptchaBeanConfig.java" />
+        <option value="$PROJECT_DIR$/mysecuritycore/src/main/java/com/my/security/core/verification/captcha/sms/SMSCaptchaProcessor.java" />
       </list>
     </option>
   </component>
@@ -317,6 +283,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -444,6 +411,28 @@
             <path>
               <item name="mysecurity" type="b2602c69:ProjectViewProjectNode" />
               <item name="mysecurity" type="462c0819:PsiDirectoryNode" />
+              <item name="mysecuritycore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="captcha" type="462c0819:PsiDirectoryNode" />
+              <item name="image" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mysecurity" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mysecurity" type="462c0819:PsiDirectoryNode" />
+              <item name="mysecuritycore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="captcha" type="462c0819:PsiDirectoryNode" />
+              <item name="sms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mysecurity" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mysecurity" type="462c0819:PsiDirectoryNode" />
               <item name="mysecuritydemo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -498,7 +487,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -508,7 +496,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelWidth1" value="75" />
@@ -519,6 +507,10 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.my.security.core.properties" />
+      <recent name="com.my.security.core.verification.captcha" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.my.dto" />
     </key>
@@ -772,7 +764,10 @@
       <workItem from="1514796243233" duration="2651000" />
       <workItem from="1514798956946" duration="1000000" />
       <workItem from="1515239988291" duration="120000" />
-      <workItem from="1515240126357" duration="7250000" />
+      <workItem from="1515240126357" duration="7845000" />
+      <workItem from="1515311782386" duration="3646000" />
+      <workItem from="1515324686441" duration="2454000" />
+      <workItem from="1515328260003" duration="1561000" />
     </task>
     <servers />
   </component>
@@ -809,7 +804,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63566000" />
+    <option name="totallyTimeSpent" value="71822000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -825,7 +820,7 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901832" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280255" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3279396" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21143474" sideWeight="0.50989586" order="7" side_tool="true" content_ui="tabs" />
@@ -840,17 +835,17 @@
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.399137" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -860,75 +855,12 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/mysecuritydemo/src/main/resources/resources/error.html" />
-    <entry file="file://$PROJECT_DIR$/mysecuritydemo/src/main/resources/resources/error/404.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="7" column="40" lean-forward="false" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mysecuritydemo/src/main/resources/resources/error/500.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="9" column="7" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mysecuritydemo/src/main/java/com/my/web/controller/ControllerExceptionHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="15" column="28" lean-forward="false" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mysecuritydemo/src/main/java/com/my/exception/UserNotExistException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mysecuritydemo/src/test/java/com/my/web/controller/UserControllerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="180" column="5" lean-forward="false" selection-start-line="180" selection-start-column="5" selection-end-line="180" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mysecuritydemo/src/test/java/com/my/web/controller/1514284361004.txt" />
-    <entry file="file://$PROJECT_DIR$/mysecuritydemo/src/test/java/com/my/web/controller/1514284904551.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="12" lean-forward="true" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mysecuritydemo/src/main/java/com/my/web/controller/FileController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="812">
-          <caret line="37" column="24" lean-forward="false" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mysecuritydemo/src/main/java/com/my/dto/FileInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="9" column="29" lean-forward="false" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mysecuritydemo/src/main/java/com/my/web/async/DeferredResultHolder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="14" column="44" lean-forward="false" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mysecuritydemo/src/test/java/com/my/web/controller/FileControllerTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="164">
@@ -968,13 +900,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
           <caret line="22" column="19" lean-forward="false" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mysecuritydemo/src/main/java/com/my/web/filter/TimeFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="24" column="8" lean-forward="false" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="106" />
         </state>
       </provider>
     </entry>
@@ -1044,9 +969,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="986">
           <caret line="52" column="94" lean-forward="false" selection-start-line="52" selection-start-column="94" selection-end-line="52" selection-end-column="94" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1054,7 +976,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="145">
           <caret line="5" column="1" lean-forward="false" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1062,7 +983,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="261">
           <caret line="9" column="7" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1070,7 +990,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="725">
           <caret line="34" column="21" lean-forward="false" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1085,9 +1004,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="638">
           <caret line="35" column="16" lean-forward="false" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1095,9 +1011,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="754">
           <caret line="101" column="64" lean-forward="false" selection-start-line="101" selection-start-column="64" selection-end-line="101" selection-end-column="64" />
-          <folding>
-            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1105,9 +1018,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="87">
           <caret line="30" column="13" lean-forward="true" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1115,16 +1025,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="232">
           <caret line="8" column="26" lean-forward="false" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
-          <folding>
-            <element signature="e#367#368#0" expanded="true" />
-            <element signature="e#388#389#0" expanded="true" />
-            <element signature="e#442#443#0" expanded="true" />
-            <element signature="e#471#472#0" expanded="true" />
-            <element signature="e#513#514#0" expanded="true" />
-            <element signature="e#534#535#0" expanded="true" />
-            <element signature="e#588#589#0" expanded="true" />
-            <element signature="e#617#618#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1132,37 +1032,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="196">
           <caret line="24" column="22" lean-forward="false" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mysecuritybrowser/src/main/resources/resources/my-login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="478">
-          <caret line="99" column="58" lean-forward="false" selection-start-line="99" selection-start-column="58" selection-end-line="99" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mysecuritybrowser/src/main/java/com/my/security/browser/BrowserSecurityConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="60" column="12" lean-forward="true" selection-start-line="60" selection-start-column="12" selection-end-line="60" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mysecuritycore/src/main/java/com/my/security/core/properties/CaptchaProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="6" column="46" lean-forward="false" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
-          <folding>
-            <element signature="e#208#209#0" expanded="true" />
-            <element signature="e#263#264#0" expanded="true" />
-            <element signature="e#288#289#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1174,105 +1043,198 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysecuritycore/src/main/java/com/my/security/core/properties/ImageCaptchaProperties.java">
+    <entry file="file://$PROJECT_DIR$/mysecuritycore/src/main/java/com/my/security/core/verification/captcha/CaptchaException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="42" column="28" lean-forward="false" selection-start-line="42" selection-start-column="28" selection-end-line="42" selection-end-column="28" />
+        <state relative-caret-position="203">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding>
-            <element signature="e#235#236#0" expanded="true" />
-            <element signature="e#254#255#0" expanded="true" />
-            <element signature="e#290#291#0" expanded="true" />
-            <element signature="e#315#316#0" expanded="true" />
-            <element signature="e#342#343#0" expanded="true" />
-            <element signature="e#362#363#0" expanded="true" />
-            <element signature="e#400#401#0" expanded="true" />
-            <element signature="e#427#428#0" expanded="true" />
-            <element signature="e#454#455#0" expanded="true" />
-            <element signature="e#474#475#0" expanded="true" />
-            <element signature="e#512#513#0" expanded="true" />
-            <element signature="e#539#540#0" expanded="true" />
-            <element signature="e#568#569#0" expanded="true" />
-            <element signature="e#590#591#0" expanded="true" />
-            <element signature="e#632#633#0" expanded="true" />
-            <element signature="e#663#664#0" expanded="true" />
-            <element signature="e#707#708#0" expanded="true" />
-            <element signature="e#742#743#0" expanded="true" />
-            <element signature="e#763#764#0" expanded="true" />
+            <element signature="e#221#222#0" expanded="false" />
+            <element signature="e#238#239#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mysecuritydemo/src/main/java/com/my/DemoApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
+        <state relative-caret-position="319">
           <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysecuritycore/src/main/java/com/my/security/core/verification/captcha/Captcha.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysecuritycore/src/main/java/com/my/security/core/properties/SMSCaptchaProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="4" column="26" lean-forward="false" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysecuritycore/src/main/java/com/my/security/core/properties/CaptchaProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="15" column="42" lean-forward="false" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysecuritycore/src/main/java/com/my/security/core/properties/ImageCaptchaProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="11" column="27" lean-forward="false" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysecuritycore/src/main/java/com/my/security/core/verification/captcha/CaptchaProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="12" column="21" lean-forward="false" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysecuritycore/src/main/java/com/my/security/core/verification/captcha/image/ImageCaptcha.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#554#555#0" expanded="false" />
+            <element signature="e#573#574#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysecuritycore/src/main/java/com/my/security/core/verification/captcha/image/ImageCaptchaGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysecuritybrowser/src/main/java/com/my/security/browser/BrowserSecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="710">
+          <caret line="93" column="31" lean-forward="false" selection-start-line="93" selection-start-column="31" selection-end-line="93" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysecuritycore/src/main/java/com/my/security/core/verification/captcha/sms/DefaultSMSCaptchaService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="4" column="56" lean-forward="false" selection-start-line="4" selection-start-column="56" selection-end-line="4" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysecuritycore/src/main/java/com/my/security/core/verification/captcha/sms/SMSCaptchaService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysecuritycore/src/main/java/com/my/security/core/verification/captcha/CaptchaGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="6" column="12" lean-forward="false" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysecuritycore/src/main/java/com/my/security/core/verification/captcha/sms/SMSCaptcha.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="11" column="11" lean-forward="false" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+          <folding>
+            <element signature="e#327#328#0" expanded="true" />
+            <element signature="e#355#356#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysecuritycore/src/main/java/com/my/security/core/verification/captcha/sms/SMSCaptchaGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysecuritycore/src/main/java/com/my/security/core/verification/captcha/CaptchaFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3875#3876#0" expanded="true" />
+            <element signature="e#3904#3905#0" expanded="true" />
+            <element signature="e#4264#4265#0" expanded="true" />
+            <element signature="e#4282#4283#0" expanded="true" />
+            <element signature="e#4324#4325#0" expanded="true" />
+            <element signature="e#4347#4348#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysecuritycore/src/main/java/com/my/security/core/verification/captcha/image/ImageCaptchaProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="8" column="24" lean-forward="false" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysecuritybrowser/src/main/resources/resources/my-login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="652">
+          <caret line="118" column="29" lean-forward="false" selection-start-line="118" selection-start-column="29" selection-end-line="118" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mysecuritydemo/src/main/java/com/my/captcha/DemoImageCaptchaGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="7" column="33" lean-forward="false" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="116">
+          <caret line="6" column="2" lean-forward="false" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysecuritycore/src/main/java/com/my/security/core/verification/captcha/CaptchaException.java">
+    <entry file="file://$PROJECT_DIR$/mysecuritydemo/src/main/java/com/my/web/filter/TimeFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="e#221#222#0" expanded="true" />
-            <element signature="e#238#239#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="196">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysecuritycore/src/main/java/com/my/security/core/verification/captcha/CaptchaFilter.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.13.RELEASE/spring-web-4.3.13.RELEASE.jar!/org/springframework/web/context/request/ServletWebRequest.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2588">
-          <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3753#3754#0" expanded="true" />
-            <element signature="e#3782#3783#0" expanded="true" />
-            <element signature="e#4142#4143#0" expanded="true" />
-            <element signature="e#4160#4161#0" expanded="true" />
-            <element signature="e#4202#4203#0" expanded="true" />
-            <element signature="e#4225#4226#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mysecuritycore/src/main/java/com/my/security/core/verification/captcha/ImageCaptcha.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1285">
-          <caret line="49" column="53" lean-forward="false" selection-start-line="49" selection-start-column="53" selection-end-line="49" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#639#640#0" expanded="true" />
-            <element signature="e#658#659#0" expanded="true" />
-            <element signature="e#704#705#0" expanded="true" />
-            <element signature="e#729#730#0" expanded="true" />
-            <element signature="e#757#758#0" expanded="true" />
-            <element signature="e#775#776#0" expanded="true" />
-            <element signature="e#812#813#0" expanded="true" />
-            <element signature="e#835#836#0" expanded="true" />
-            <element signature="e#876#877#0" expanded="true" />
-            <element signature="e#900#901#0" expanded="true" />
-            <element signature="e#1022#1023#0" expanded="true" />
-            <element signature="e#1075#1076#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="200">
+          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mysecuritycore/src/main/java/com/my/security/core/verification/captcha/CaptchaBeanConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="59" lean-forward="false" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="59" />
+        <state relative-caret-position="444">
+          <caret line="27" column="46" lean-forward="false" selection-start-line="27" selection-start-column="46" selection-end-line="27" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1281,26 +1243,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mysecuritycore/src/main/java/com/my/security/core/verification/captcha/CaptchaController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        <state relative-caret-position="299">
+          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysecuritycore/src/main/java/com/my/security/core/verification/captcha/CaptchaGenerator.java">
+    <entry file="file://$PROJECT_DIR$/mysecuritycore/src/main/java/com/my/security/core/verification/captcha/AbstractCaptchaProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="196">
+          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1093#1123#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysecuritycore/src/main/java/com/my/security/core/verification/captcha/ImageCaptchaGenerator.java">
+    <entry file="file://$PROJECT_DIR$/mysecuritycore/src/main/java/com/my/security/core/verification/captcha/sms/SMSCaptchaProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="17" column="71" lean-forward="true" selection-start-line="17" selection-start-column="71" selection-end-line="17" selection-end-column="71" />
+        <state relative-caret-position="270">
+          <caret line="16" column="91" lean-forward="false" selection-start-line="16" selection-start-column="91" selection-end-line="16" selection-end-column="91" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

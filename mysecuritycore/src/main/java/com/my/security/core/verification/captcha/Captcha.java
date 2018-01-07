@@ -1,33 +1,22 @@
 package com.my.security.core.verification.captcha;
 
-import java.awt.image.BufferedImage;
 import java.time.LocalDateTime;
 
-public class ImageCaptcha {
+public class Captcha {
 
-	private BufferedImage image;
 	private String code;
 	private LocalDateTime expireTime;
-	private boolean expired;
 
-	public ImageCaptcha(BufferedImage image, String code, LocalDateTime expireTime) {
-		this.image = image;
+	public Captcha(String code, LocalDateTime expireTime) {
+
 		this.code = code;
 		this.expireTime = expireTime;
 	}
 
-	public ImageCaptcha(BufferedImage image, String code, int expireIn) {
-		this.image = image;
+	public Captcha(String code, int expireIn) {
+
 		this.code = code;
 		this.expireTime = LocalDateTime.now().plusSeconds(expireIn);
-	}
-
-	public BufferedImage getImage() {
-		return image;
-	}
-
-	public void setImage(BufferedImage image) {
-		this.image = image;
 	}
 
 	public String getCode() {

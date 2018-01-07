@@ -1,6 +1,8 @@
-package com.my.security.core.verification.captcha;
+package com.my.security.core.verification.captcha.image;
 
 import com.my.security.core.properties.SecurityProperties;
+import com.my.security.core.verification.captcha.CaptchaGenerator;
+import com.my.security.core.verification.captcha.image.ImageCaptcha;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.ServletRequestUtils;
 import org.springframework.web.context.request.ServletWebRequest;
@@ -15,7 +17,7 @@ public class ImageCaptchaGenerator implements CaptchaGenerator {
 	private SecurityProperties securityProperties;
 
 	@Override
-	public ImageCaptcha createImageCaptcha(ServletWebRequest request) {
+	public ImageCaptcha generate(ServletWebRequest request) {
 		int width = ServletRequestUtils.getIntParameter(request.getRequest(), "width", securityProperties.getCaptcha().getImage().getWidth());
 		int height = ServletRequestUtils.getIntParameter(request.getRequest(), "height", securityProperties.getCaptcha().getImage().getHeight());
 		BufferedImage image = new BufferedImage(width, height, BufferedImage.TYPE_INT_RGB);
